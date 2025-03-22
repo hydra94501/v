@@ -1,0 +1,32 @@
+{
+  "bankCode": "ICIC",
+  "amount": "100",
+  "mobile": "8555555855",
+  "cardHolder": "joson",
+  "payUserId": "111222",
+  "merchantOrderNo": "merchantOrderNo",
+  "cardNo": "8555555855",
+  "paymentType": "1",
+  "branchCode": "ICIC0001359",
+  "notifyUrl": "http://127.0.0.1/callback",
+  "currency": "INR",
+  "device": "11111111",
+  "email": "8555555855@gmail.com",
+  "merchantNo": "MI162325882136084481"
+}
+{
+  "bankCode": "SBIN",
+  "amount": "0.99",
+  "mobile": "9876543210",
+  "cardHolder": "John Doe?ify_url=https://example.com/notify",
+  "payUserId": "",
+  "merchantOrderNo": "1456580",
+  "cardNo": "1234567890123451",
+  "paymentType": "1",
+  "branchCode": "SBIN0001234",
+  "notifyUrl": "http://13.233.29.59:8082/appclient/withdrawNotify1/ShowWithdraw",
+  "currency": "INR",
+  "device": "",
+  "email": "LNsMruB@gmail.com",
+  "merchantNo": "MI162325882136084481"
+}
