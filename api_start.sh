@@ -12,6 +12,6 @@ cp -rf /home/v/api/com   /home/x/tomcat82/webapps/ROOT/WEB-INF/classes/
 echo "end cp"
 
 echo "Tomcat82 is starting..."
-/home/x/tomcat82/bin/startup.sh
+sh /home/x/tomcat82/bin/startup.sh
 
 echo "Tomcat82 is started !!!"
