@@ -10,4 +10,7 @@
        select * from WithdrawType order by Sort Desc
    </select>
 
+    <update id="WithdrawType.updateBalance" parameterClass="withdrawType">
+        update WithdrawType set balance = #balance# where id =#id#
+    </update>
 </sqlMap>
