@@ -9,6 +9,7 @@ else
 fi
 echo "start cp...."
 cp -rf /home/v/api/com   /home/x/tomcat82/webapps/ROOT/WEB-INF/classes/
+cp -rf /home/v/api/ibatis   /home/x/tomcat82/webapps/ROOT/WEB-INF/classes/resource/paycenter/ibatis/
 echo "end cp"
 
 echo "Tomcat82 is starting..."
