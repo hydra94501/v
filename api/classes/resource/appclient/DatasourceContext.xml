@@ -28,11 +28,14 @@
 <!--    </bean>-->
 
     <bean id="paycenter_dataSource" class="com.alibaba.druid.pool.DruidDataSource">
-       <property name="url" value="jdbc:mysql://127.0.0.1:3306/xyz?useUnicode=true&amp;characterEncoding=GBK"/> 
-       <property name="username" value="xyz"/> 
-       <property name="password" value="Ynz28eWxGKweNLAM"/> 
-       <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
-    
+        <property name="url" value="jdbc:mysql://13.233.29.59:3306/xyz?useUnicode=true&amp;characterEncoding=GBK"/>
+        <property name="username" value="xyz"/>
+        <property name="password" value="Ynz28eWxGKweNLAM"/>
+
+        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
+<!--        <property name="url" value="jdbc:mysql://localhost:3306/test?useSSL=false&amp;serverTimezone=UTC&amp;useUnicode=true&amp;characterEncoding=UTF-8"/>-->
+<!--        <property name="username" value="root"/>-->
+<!--        <property name="password" value="123456"/>-->
 <!--        password: Xw%N0wd2e@7F.V-->
         <!--        type: com.zaxxer.hikari.HikariDataSource-->
 <!--        url: jdbc:mysql://34.150.92.75:3306/shortVideo?useUnicode=true&characterEncoding=utf8&useSSL=false-->

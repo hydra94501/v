@@ -13,4 +13,12 @@
     <update id="WithdrawType.updateBalance" parameterClass="withdrawType">
         update WithdrawType set balance = #balance# where id =#id#
     </update>
+
+
+    <select id="WithdrawType.selectById" resultClass="withdrawType">
+        select * from WithdrawType where id =#id#
+    </select>
+
+
+
 </sqlMap>

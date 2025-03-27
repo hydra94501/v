@@ -30,10 +30,26 @@
           and a.PayTypeId = b.Id
           and a.Status = 0
           and a.Status1 = 0
-          and a.CreateTime > date_add(now(), interval +120 minute)
+          and a.CreateTime > date_add(now(), interval +1200 minute)
         order by a.Id
         ]]>
     </select>
+
+
+
+    <select id="PayLog.listStatus0" resultClass="payLog">
+          <![CDATA[
+        select a.*
+        from PayLog a,
+             PayType b
+        where b.CanQuery = 1
+          and a.PayTypeId = b.Id
+          and a.Status = 0
+        order by a.Id
+        ]]>
+    </select>
+
+
 
     <select id="PayLog.listUndealToday" resultClass="payLog">
    <![CDATA[
