@@ -257,7 +257,7 @@
         set Status=1,
             Status1=1,
             Description=#description#,
-            PayTime = date_add(now(), interval 150 minute),
+            PayTime = date_add(now(), interval 0 minute),
             PayDay=#payDay#,
             ValidDay=#validDay#
         where Id = #id#
