@@ -1,0 +1,26 @@
+{
+  "message_id": 59,
+  "from": {
+    "id": 6738170377,
+    "is_bot": false,
+    "first_name": "lyon",
+    "last_name": "86",
+    "username": "hydra94518",
+    "language_code": "zh-hans"
+  },
+  "chat": {
+    "id": -1002148627181,
+    "title": "\u72fc\u53cb",
+    "username": "hecha6996",
+    "type": "supergroup"
+  },
+  "date": 1743235590,
+  "text": "/open x",
+  "entities": [
+    {
+      "offset": 0,
+      "length": 5,
+      "type": "bot_command"
+    }
+  ]
+}}]}
